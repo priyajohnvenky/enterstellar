@@ -12,28 +12,30 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">
-              <span className="text-brand-red">enter</span>
-              <span className="text-brand-blue">stellar</span>
-            </h3>
-            <p className="text-gray-400 mb-4 max-w-md">
+            <div className="mb-4">
+              <span className="text-2xl font-bold text-brand-red">enter</span>
+              <span className="text-2xl font-bold text-white">stellar</span>
+            </div>
+            <p className="text-white/70 mb-4 max-w-md">
               Building Secure Digital Infrastructure for Public Utilities. 
               Specialising in AI-powered metering systems and secure data platforms.
             </p>
-            <div className="space-y-2 text-gray-400 text-sm">
+            <div className="space-y-2 text-white/70 text-sm">
               <div className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-1 flex-shrink-0" />
                 <span>NO.49 & 50L, 3rd Floor, Express Chambers<br />(Express Avenue), Whites Road,<br />Royapettah, Chennai-600 014, India</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Phone className="h-4 w-4" />
+                <a href="tel:+919629943399" className="hover:text-white transition-colors">
+                  +91 96299 43399
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
                 <a href="mailto:venky@enterstellarsoftwares.com" className="hover:text-white transition-colors">
                   venky@enterstellarsoftwares.com
                 </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <Phone className="h-4 w-4" />
-                <span>Chennai, India</span>
               </div>
             </div>
           </div>
@@ -43,32 +45,32 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="/" className="text-white/70 hover:text-white transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="/about" className="text-white/70 hover:text-white transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/what-we-build" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="/what-we-build" className="text-white/70 hover:text-white transition-colors">
                   What We Build
                 </Link>
               </li>
               <li>
-                <Link href="/approach" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="/approach" className="text-white/70 hover:text-white transition-colors">
                   Our Approach
                 </Link>
               </li>
               <li>
-                <Link href="/prototypes" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="/prototypes" className="text-white/70 hover:text-white transition-colors">
                   Prototypes
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="/contact" className="text-white/70 hover:text-white transition-colors">
                   Contact
                 </Link>
               </li>
@@ -78,7 +80,7 @@ export default function Footer() {
           {/* Speciality */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Our Focus</h4>
-            <ul className="space-y-2 text-gray-400">
+            <ul className="space-y-2 text-white/70">
               <li>AI-Powered Metering</li>
               <li>Secure Data Platforms</li>
               <li>Water Utility Systems</li>
@@ -89,15 +91,15 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
+        <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-white/70 text-sm">
             © {currentYear} Enterstellar Softwares Pvt Ltd. All rights reserved.
           </p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
+            <Link href="/privacy" className="text-white/70 hover:text-white text-sm transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">
+            <Link href="/terms" className="text-white/70 hover:text-white text-sm transition-colors">
               Terms of Service
             </Link>
           </div>
