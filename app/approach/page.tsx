@@ -198,6 +198,8 @@ export default function OurApproach() {
           </motion.div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

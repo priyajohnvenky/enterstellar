@@ -127,6 +127,8 @@ export default function OurSpeciality() {
           </motion.div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

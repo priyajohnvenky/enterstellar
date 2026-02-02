@@ -164,6 +164,8 @@ export default function AboutUs() {
           </motion.section>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

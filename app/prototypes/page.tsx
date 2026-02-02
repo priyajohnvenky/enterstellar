@@ -209,6 +209,8 @@ export default function Prototypes() {
           </motion.div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

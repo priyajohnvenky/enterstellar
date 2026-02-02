@@ -243,6 +243,8 @@ export default function WhatWeBuild() {
           </motion.section>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }
