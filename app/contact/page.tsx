@@ -185,7 +185,7 @@ export default function Contact() {
                 <h3 className="text-xl font-bold text-brand-dark mb-6">What happens next?</h3>
                 <div className="space-y-4">
                   {[
-                    { step: '1', text: 'We'll review your inquiry within 24 hours' },
+                    { step: '1', text: "We'll review your inquiry within 24 hours" },
                     { step: '2', text: 'Schedule an initial discussion call' },
                     { step: '3', text: 'Understand your specific requirements' },
                     { step: '4', text: 'Propose a tailored solution approach' }
