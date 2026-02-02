@@ -29,11 +29,11 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight drop-shadow-lg"
             >
-              Secure Digital Utility Infrastructure
+              <span className="text-white">Secure Digital Utility Infrastructure</span>
               <br />
-              & AI-Enabled Service Platforms
+              <span className="text-brand-red">& AI-Enabled Service Platforms</span>
             </motion.h1>
 
             {/* Tagline - Animated with delay */}
