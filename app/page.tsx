@@ -33,7 +33,7 @@ export default function Home() {
             >
               <span className="text-brand-red drop-shadow-2xl">Secure Digital Utility Infrastructure</span>
               <br />
-              <span className="text-brand-blue drop-shadow-2xl" style={{ textShadow: '0 0 20px rgba(255,255,255,0.8), 0 4px 8px rgba(0,0,0,0.3)' }}>& AI-Enabled Service Platforms</span>
+              <span className="text-brand-blue drop-shadow-2xl" style={{ textShadow: '0 0 40px rgba(255,255,255,1), 0 0 60px rgba(255,255,255,0.8), 0 4px 12px rgba(0,0,0,0.5)' }}>& AI-Enabled Service Platforms</span>
             </motion.h1>
 
             {/* Tagline - Animated with delay */}
