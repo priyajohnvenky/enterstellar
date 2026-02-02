@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Shield, Cpu, MessageCircle, BarChart3, CheckCircle } from 'lucide-react';
 import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 
 export default function WhatWeBuild() {
   return (

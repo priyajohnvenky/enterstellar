@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Search, Shield, Code, FlaskConical, TrendingUp } from 'lucide-react';
 import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 
 export default function OurApproach() {
   const steps = [

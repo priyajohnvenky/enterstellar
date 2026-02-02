@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Shield, Cpu, BarChart3, Database } from 'lucide-react';
 import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export default function Home() {
@@ -176,6 +177,8 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }

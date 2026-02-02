@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Mail, MessageSquare, Send } from 'lucide-react';
 import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 import { useState } from 'react';
 
 export default function Contact() {

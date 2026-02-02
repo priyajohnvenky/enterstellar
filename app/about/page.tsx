@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Shield, Target, Lightbulb, Eye } from 'lucide-react';
 import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 
 export default function AboutUs() {
   return (
