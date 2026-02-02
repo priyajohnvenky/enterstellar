@@ -17,9 +17,9 @@ export default function Home() {
           <img 
             src="/hero-tech.jpg" 
             alt="Digital Infrastructure" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover brightness-90"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/90 to-white/80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/50 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
