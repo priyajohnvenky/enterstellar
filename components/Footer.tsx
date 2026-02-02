@@ -20,22 +20,20 @@ export default function Footer() {
               Building Secure Digital Infrastructure for Public Utilities. 
               Specialising in AI-powered metering systems and secure data platforms.
             </p>
-            <div className="space-y-2 text-gray-400">
+            <div className="space-y-2 text-gray-400 text-sm">
+              <div className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 mt-1 flex-shrink-0" />
+                <span>NO.49 & 50L, 3rd Floor, Express Chambers<br />(Express Avenue), Whites Road,<br />Royapettah, Chennai-600 014, India</span>
+              </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <a href="mailto:contact@enterstellar.com" className="hover:text-white transition-colors">
-                  contact@enterstellar.com
+                <a href="mailto:venky@enterstellarsoftwares.com" className="hover:text-white transition-colors">
+                  venky@enterstellarsoftwares.com
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <a href="tel:+1234567890" className="hover:text-white transition-colors">
-                  +1 (234) 567-890
-                </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="h-4 w-4" />
-                <span>India</span>
+                <span>Chennai, India</span>
               </div>
             </div>
           </div>
