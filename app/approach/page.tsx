@@ -91,6 +91,23 @@ export default function OurApproach() {
             </p>
           </motion.div>
 
+          {/* Team Image */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mb-16"
+          >
+            <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl">
+              <img 
+                src="/team-collab.jpg" 
+                alt="Team Collaboration" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-blue/60 via-transparent to-transparent" />
+            </div>
+          </motion.div>
+
           {/* Steps */}
           <div className="space-y-12">
             {steps.map((step, index) => (

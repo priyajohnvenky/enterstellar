@@ -27,6 +27,27 @@ export default function OurSpeciality() {
             </p>
           </motion.div>
 
+          {/* Hero Image */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mb-16"
+          >
+            <div className="relative h-80 rounded-2xl overflow-hidden shadow-2xl">
+              <img 
+                src="/building-govt.jpg" 
+                alt="Government Infrastructure" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/70 to-brand-blue/40 flex items-center justify-center">
+                <h2 className="text-white text-3xl md:text-4xl font-bold text-center px-8">
+                  Secure Infrastructure for Public Services
+                </h2>
+              </div>
+            </div>
+          </motion.div>
+
           {/* Why Security-First Matters */}
           <motion.section
             initial={{ opacity: 0, y: 40 }}

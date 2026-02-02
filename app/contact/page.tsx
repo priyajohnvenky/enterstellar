@@ -44,6 +44,28 @@ export default function Contact() {
             </p>
           </motion.div>
 
+          {/* Contact Header Image */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mb-16"
+          >
+            <div className="relative h-64 rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src="/office-modern.jpg" 
+                alt="Contact Enterstellar Softwares" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/80 to-brand-blue/60 flex items-center justify-center">
+                <div className="text-center text-white px-8">
+                  <Mail className="h-16 w-16 mx-auto mb-4" />
+                  <p className="text-2xl font-semibold">Let's Build Something Secure Together</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <motion.div

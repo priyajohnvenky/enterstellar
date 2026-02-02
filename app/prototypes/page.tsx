@@ -91,6 +91,26 @@ export default function Prototypes() {
             </p>
           </motion.div>
 
+          {/* Dashboard Preview Image */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mb-16"
+          >
+            <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-gray-200">
+              <img 
+                src="/dashboard-preview.jpg" 
+                alt="Water Billing Dashboard Preview" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                <p className="text-white text-xl font-semibold">AI-Powered Water Billing Platform</p>
+                <p className="text-white/80 text-sm">Real-time dashboard with automated meter reading and analytics</p>
+              </div>
+            </div>
+          </motion.div>
+
           {/* Case Studies */}
           <div className="space-y-20">
             {caseStudies.map((study, index) => (
