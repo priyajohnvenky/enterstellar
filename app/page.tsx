@@ -15,11 +15,11 @@ export default function Home() {
         {/* Hero Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/hero-tech.jpg" 
-            alt="Digital Infrastructure" 
-            className="w-full h-full object-cover brightness-90"
+            src="/hero-water-pipes.jpg" 
+            alt="Water Infrastructure" 
+            className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/90 via-brand-blue/80 to-brand-blue/70" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -29,11 +29,11 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-blue mb-6 leading-tight"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg"
             >
               Secure Digital Utility Infrastructure
               <br />
-              <span className="text-brand-red">& AI-Enabled Service Platforms</span>
+              <span className="text-yellow-400">& AI-Enabled Service Platforms</span>
             </motion.h1>
 
             {/* Tagline - Animated with delay */}
@@ -41,7 +41,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-xl md:text-2xl text-brand-dark mb-4 font-medium"
+              className="text-xl md:text-2xl text-white/90 mb-4 font-medium drop-shadow-md"
             >
               Building Secure Digital Infrastructure for Public Utilities
             </motion.p>
@@ -51,7 +51,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto"
+              className="text-lg text-white/80 mb-12 max-w-3xl mx-auto drop-shadow-md"
             >
               Modernising state-level water utilities through AI-powered metering systems,
               secure data platforms, and intelligent service delivery.
@@ -64,7 +64,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
-              <Link href="/prototypes" className="inline-flex items-center justify-center px-8 py-4 bg-brand-blue text-white text-lg font-semibold rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 shadow-lg">
+              <Link href="/prototypes" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-blue text-lg font-semibold rounded-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg">
                 View Prototypes
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
