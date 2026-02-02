@@ -34,6 +34,24 @@ export default function AboutUs() {
             </div>
           </motion.div>
 
+          {/* Image Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-16"
+          >
+            <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src="/office-modern.jpg" 
+                alt="Enterstellar Softwares Office" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-blue/60 to-transparent" />
+            </div>
+          </motion.div>
+
           {/* Current Focus */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
