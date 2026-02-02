@@ -33,7 +33,7 @@ export default function Home() {
             >
               Secure Digital Utility Infrastructure
               <br />
-              <span className="text-yellow-400">& AI-Enabled Service Platforms</span>
+              & AI-Enabled Service Platforms
             </motion.h1>
 
             {/* Tagline - Animated with delay */}
