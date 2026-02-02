@@ -30,14 +30,16 @@ export default function Navigation() {
             transition={{ duration: 0.5 }}
             className="flex-shrink-0"
           >
-            <Image
-              src="/logo.jpg"
-              alt="Enterstellar Softwares"
-              width={280}
-              height={60}
-              className="h-12 w-auto"
-              priority
-            />
+            <Link href="/">
+              <Image
+                src="/logo-enterstellar.jpg"
+                alt="Enterstellar Softwares"
+                width={220}
+                height={60}
+                className="h-12 w-auto cursor-pointer"
+                priority
+              />
+            </Link>
           </motion.div>
 
           {/* Desktop Navigation */}

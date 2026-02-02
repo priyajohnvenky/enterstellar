@@ -15,11 +15,11 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="mb-4">
               <Image 
-                src="/logo.jpg" 
+                src="/logo-enterstellar.jpg" 
                 alt="Enterstellar Softwares" 
-                width={170} 
-                height={50}
-                className="h-12 w-auto"
+                width={220} 
+                height={60}
+                className="h-14 w-auto"
               />
             </div>
             <p className="text-gray-600 mb-4 max-w-md">
