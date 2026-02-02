@@ -31,9 +31,9 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight drop-shadow-2xl"
             >
-              <span className="text-brand-red drop-shadow-2xl">Secure Digital Utility Infrastructure</span>
+              <span className="text-white drop-shadow-2xl">Secure Digital Utility Infrastructure</span>
               <br />
-              <span className="text-brand-blue drop-shadow-2xl" style={{ textShadow: '0 0 40px rgba(255,255,255,1), 0 0 60px rgba(255,255,255,0.8), 0 4px 12px rgba(0,0,0,0.5)' }}>& AI-Enabled Service Platforms</span>
+              <span className="text-brand-red drop-shadow-2xl">& AI-Enabled Service Platforms</span>
             </motion.h1>
 
             {/* Tagline - Animated with delay */}
